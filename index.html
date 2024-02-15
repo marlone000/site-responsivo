@@ -7,20 +7,23 @@
 </head>
 <body>
     <style>
+        /*define a cor inicial da tela de notebooks e PCs, por isso não declaramos px mas se quiser pode colocar*/
     body{
         background: green;
     }
+    /*Aqui nos estamos falando que quando chegar em 768px a tela vai mudar para blue,é o padrão de tablets*/
     @media screen and (max-width: 768px){
         body{
             background-color: blue;
         }
     }
-
+    /*Aqui nos estamos falando que quando chegar em 600px a tela vai mudar para red, que é o padrão de celulares*/
     @media screen and (max-width: 600px){
         body{
             background-color: red;
         }
     }
+    /*voce pode alterar em uma @media para corrigir os bugs de seu site responsivo, para melhorar os posicionamentos.*/
     </style>
 </body>
 </html>
